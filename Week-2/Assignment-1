@@ -10,6 +10,7 @@ Robustness: It maintains a comprehensive history of changes, making it easier to
 Community and Integration: Git is supported by numerous platforms (e.g., GitHub, GitLab) and tools, making it an integral part of modern software development workflows.
 Overall, Git's flexibility, efficiency, and support for collaboration make it a fundamental tool in contemporary software development.
 
+
 Git vs Github
 Git and GitHub are often discussed together, but they serve distinct purposes in the context of software development.
 Git:
@@ -24,3 +25,24 @@ Git Type: Version Control System (VCS)
 Github:
 GitHub is a web-based platform that hosts Git repositories and provides additional features to facilitate collaboration and project management.
 Github Type: Hosting Platform for Git Repositories
+
+Git Basics: Creating a New Git Repository
+Step-by-Step Instructions:
+1.Open your terminal or command prompt.
+2.Navigate to the directory where you want to create the new repository.
+-> cd path/to/your/directory
+3.Create a new directory for your project and navigate into it.
+-> mkdir my-new-repo
+-> cd my-new-repo
+4.Initialize a new Git repository.
+-> git init
+5.Create a README file.
+-> echo "# My New Repository" > README.md
+6.Add the README file to the staging area.
+-> git add README.md
+7.Make your first commit.
+-> git commit -m "Initial commit with README"
+8.Verify the commit history.
+-> git log
+
+
